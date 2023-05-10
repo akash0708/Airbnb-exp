@@ -65,7 +65,7 @@ body {
     display: flex;          /* ADD */
     flex-direction: column; /* ADD */
     margin-left: 2rem;
-    
+    position: relative;
 }
 
 .card--image {
@@ -95,4 +95,12 @@ body {
 /* ADD */
 .card--price {
     margin-top: auto;
+}
+.card--badge {
+    position: absolute;
+    background-color: rgb(243, 238, 232);
+    left: 0.5rem;
+    top: 0.5rem;
+    border-radius: 5px;
+    padding: 4px;
 }
